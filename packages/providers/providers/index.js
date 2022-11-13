@@ -97,3 +97,17 @@ export const AUTHEREUM = {
   type: 'web',
   check: 'isAuthereum',
 }
+
+export const trustWalletAndroid = {
+  id: 'trustWalletAndroid',
+  name: 'Trust Wallet (Android)',
+  logo: '/wallet/trustwallet.svg',
+  check: 'isTrustWalletAndroid',
+}
+
+export const trustWalletIOS = {
+  id: 'trustWalletIOS',
+  name: 'Trust Wallet (iOS)',
+  logo: '/wallet/trustwallet.svg',
+  check: 'isTrustWalletIOS',
+}

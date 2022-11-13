@@ -20,4 +20,6 @@ export {
   burnerconnect,
   torus,
   authereum,
+  metamask as trustWalletAndroid,
+  walletconnect as trustWalletIOS,
 };
